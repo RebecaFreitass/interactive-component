@@ -1,15 +1,9 @@
 *{
     padding: 0;
     padding: 0%;
+    box-sizing: border-box;
 }
- .attribution { 
-    font-size: 11px; text-align: center; 
-    margin-top: 1rem;
-    color: white;
-}
-.attribution a {
-    color: hsl(228, 45%, 44%); 
-}
+
 :root{
     --LightGrey: hsl(217, 12%, 63%);
     --LightGrey: hsl(217, 12%, 63%);
@@ -21,60 +15,16 @@
     font-family: "Overpass";
     src: url("font/Overpass-VariableFont_wght.ttf");
 }
-body{
-    background-color: hsl(216, 12%, 8%);
-    font-family: "Overpass";
-}
-main{
-    width: 20rem;
-    margin: 10rem auto 0;
-    border-radius: 1rem;
-    background-color: hsl(213, 19%, 18%);
-    padding: 1.5rem;
-    color: white;
-    font-family: "Overpass";
-}
-article p{
-    color: rgba(255, 255, 255, 0.522);
-    line-height: 1.5rem;
-    font-weight: 400;
-}
-.btns-seleção{
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
-}
-.btn{
-    border-radius: 100%;
-    padding: 1rem 1.3rem;
-    border: none;
-    color: rgba(255, 255, 255, 0.626);
-    background-color: hsl(213, 17%, 21%);
-    cursor: pointer;
-    font-size: 1rem;
-}
-.btn:hover{
-    background-color: hsl(216, 12%, 54%);
-}
-.btn-submit{
-    width: 19rem;
-    border-radius: 1.2rem;
-    border: none;
-    font-size: 1rem;
-    font-family: "Overpass";
-    text-transform: uppercase;
-    padding: 0.5rem 0;
-    cursor: pointer;
-    background-color:hsl(25, 97%, 53%);
+
+
+
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    margin-top: 1rem;
     color: white;
 }
-.btn-submit:hover{
-    background-color:white;
-    color: hsl(25, 97%, 53%);
-}
-.thakns-article{
-    text-align: center;
-}
-.initial{
-    text-align: center;
+.attribution a {
+    color: hsl(228, 45%, 44%); 
 }
