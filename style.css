@@ -3,18 +3,26 @@
     padding: 0%;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: "Overpass-400";
+    src: url("font/static/Overpass-Regular.ttf");
+}
+@font-face {
+    font-family: "Overpass-700";
+    src: url("font/static/Overpass-Bold.ttf");
+}
 
 :root{
+    --overpass-400:"Overpass-400";
+    --overpass-700:"Overpass-700"; 
     --LightGrey: hsl(217, 12%, 63%);
     --LightGrey: hsl(217, 12%, 63%);
     --MediumGrey: hsl(216, 12%, 54%);
     --DarkBlue: hsl(213, 19%, 18%);
     --VeryDarkBlue: hsl(216, 12%, 8%);
 }
-@font-face {
-    font-family: "Overpass";
-    src: url("font/Overpass-VariableFont_wght.ttf");
-}
+
+.card-
 
 
 
