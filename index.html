@@ -8,7 +8,8 @@
   <title>Frontend Mentor | Interactive rating component</title>
 </head>
 <body>
-  <main class="card-content">
+  <main class="card-content card1">
+    <img src="images/icon-star.svg" id="icon-star">
     <h1 class="title-card">How did we do?</h1>
     <p class="card-p">
       Please let us know how we did with your support request. All feedback is appreciated
@@ -21,7 +22,22 @@
       <li class="numbers-content">4</li>
       <li class="numbers-content">5</li>
     </ul>
+    <a href="#" target="_blank"><button type="submit" id="btn-submit">submit</button></a>
   </main>
+
+  <div class="card-content card2 hidden">  
+    <section class="illustration-value">
+        <img src="images/illustration-thank-you.svg" id="svg-thank-you">
+        <p id="p-value-of-selection"> You selected 0 out of 5 </p>
+    </section>
+    <article class="card-article">
+        <h2 class="title-card" >Thank you!</h2>
+        <p class="card-p">
+            We appreciate you taking the time to give a rating. If you ever need more support,
+            don’t hesitate to get in touch!
+        </p>
+    </article>
+  </div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

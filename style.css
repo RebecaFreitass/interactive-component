@@ -21,10 +21,85 @@
     --DarkBlue: hsl(213, 19%, 18%);
     --VeryDarkBlue: hsl(216, 12%, 8%);
 }
+body{
+    background-color: var(--VeryDarkBlue);
+    padding-top: 5rem;
+}
+.card-content{
+    width: 20rem;
+    border-radius: 0.5rem;
+    background-color: var(--DarkBlue);
+    color: white;
+    padding: 1rem;
+    margin: auto;
+}
+#icon-star{
+    background-color: hsla(214, 11%, 13%, 0.612);
+    border-radius: 50%;
+    padding: 0.3rem;
+}
+.title-card{
+    font-family: var(--overpass-700);
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    
+}
+.card-p{
+    font-family: var(--overpass-400);
+    font-size: 0.9rem;
+    color: var(--LightGrey);
+}
+.list-numbers{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+}
+.numbers-content{
+    color: var(--MediumGrey);
+    background-color: hsla(214, 11%, 13%, 0.612);
+    border-radius: 100%;
+    font-family: var(--overpass-700);
+    padding: 0.8rem 1.2rem;
+    cursor: pointer;
+}
+.numbers-content:hover{
+    background-color: var(--MediumGrey);
+    color: var(--VeryDarkBlue);
+}
+#btn-submit{
+    background-color:hsl(25, 97%, 53%) ;
+    width: 100%;
+    padding: 0.8rem 0rem;
+    color: white;
+    font-family: var(--overpass-400);
+    border: none;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    cursor: pointer;
 
-.card-
+}
+.illustration-value{
+    width: 12rem;
+    margin: auto;
+}
+.card-article{
+    text-align: center;
+}
+#p-value-of-selection{
+    color:hsl(25, 97%, 53%);
+    font-family: var(--overpass-400);
+    background-color:hsla(214, 11%, 13%, 0.612);
+    border-radius: 1rem;
+    text-align: center;
+    padding: 0.3rem 0.3rem;
+    font-size: 0.9rem;
+}
 
-
+.hidden{
+    display: none;
+}
 
 
 
@@ -32,6 +107,7 @@
     font-size: 11px; text-align: center; 
     margin-top: 1rem;
     color: white;
+    font-family: var(--overpass-700);
 }
 .attribution a {
     color: hsl(228, 45%, 44%); 
