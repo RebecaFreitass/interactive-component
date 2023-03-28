@@ -63,12 +63,13 @@ body{
     font-family: var(--overpass-700);
     padding: 0.8rem 1.2rem;
     cursor: pointer;
+    transition-duration: 0.5s;
 }
 .numbers-content:hover{
     background-color: var(--MediumGrey);
     color: var(--VeryDarkBlue);
 }
-#btn-submit{
+.btn{
     background-color:hsl(25, 97%, 53%) ;
     width: 100%;
     padding: 0.8rem 0rem;
@@ -98,7 +99,7 @@ body{
 }
 
 .hidden{
-    display: none;
+    display:none ;
 }
 
 
