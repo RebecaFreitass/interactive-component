@@ -20,4 +20,4 @@ Status: **Finalizado 😃**
 visite meu perfil no [linkedin](https://www.linkedin.com/in/rebeca-freitas-16b16a232/) 💟
 
 
-Rafa-Js Rafa-Ts Rafa-React Rafa-HTML Rafa-CSS Rafa-Python Rafa-Csharp
+
