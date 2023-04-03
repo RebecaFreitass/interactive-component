@@ -8,7 +8,7 @@ Status: **Finalizado 😃**
 - [@RebecaFreitass](https://github.com/RebecaFreitass)
 
  ### Tecnologias utilizadas
-  HTML| CSS | ![image](https://user-images.githubusercontent.com/100148878/229386362-50df3d81-64b2-48ae-b5c2-48d922ae4dd9.png)
+  HTML| CSS | JS
   ---|---|---|
   37.6%|47.4%|15.0%
   
